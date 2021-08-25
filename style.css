@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+/* ---------- BODY ---------- */
+
+BODY {
+		padding-left: 15em;
+		background-image:url(bg.jpg);
+		background-repeat:no-repeat;
+		background-position:right;
+		background-attachment:fixed;
+		background-color:#000000;
+		}
+
+/* ---------- MENU ----------- */
+
+#menu {
+	margin:0;
+	padding:0;
+	border:hidden;
+	position:absolute;
+	top:99px;
+	left:16px;
+	width:20%;
+	font-family:"Times New Roman", Times, serif;
+	height: 40px;
+		}
+
+#menu h1{
+		font-size:20px;
+		color:#B70004;
+		}
+#menu h2{
+		font-size:18px;
+		font-style:italic;
+		}
+#menu h2 a{
+			color:#B70004;
+			font-family:"Times New Roman", Times, serif;
+			text-decoration:none;
+			}
+#menu h2 a:visited{
+			color:#ffffff;
+			font-family:"Times New Roman", Times, serif;
+			text-decoration:none;
+			}
+#menu h2 a:hover{
+			color:#FF0000;
+			font-family:"Times New Roman", Times, serif;
+			text-decoration:underline;
+			}
+
+
+
+/* ---------- PRINCIPAL ---------- */
+
+#principal{
+		margin:0em;
+		left:230px;
+		top:0em;
+		width:75%;
+		
+		font-family:Arial, Helvetica, sans-serif;
+		color:#ffffff;
+		font-size:17px;
+		}
+
+#principal h1 {
+				font-family:"Times New Roman", Times, serif;
+				font-size:48px;
+				color:#B70001;
+				}
+
+#principal h2 {
+				font-family:"Times New Roman", Times, serif;
+				font-size:24px;
+				color:#ffffff;
+				font-style:italic;
+				}
+
+/* ---------- LINKS ---------- */
+
+#links {
+	margin:0;
+	padding:0;
+	position:absolute;
+	right:1em;
+	width:15%;
+	font-family:"Times New Roman", Times, serif;
+	top: 49px;
+		}
+
+#links h1{
+		font-size:20px;
+		color:#B70004;
+		}
+#links h2{
+		font-size:18px;
+		font-style:italic;
+		}
+#links h2 a{
+			color:#B70004;
+			font-family:"Times New Roman", Times, serif;
+			text-decoration:none;
+			}
+#links h2 a:visited{
+			color:#ffffff;
+			font-family:"Times New Roman", Times, serif;
+			text-decoration:none;
+			}
+#links h2 a:hover{
+			color:#FF0000;
+			font-family:"Times New Roman", Times, serif;
+			text-decoration:underline;
+			}
+			
+			
+/* ---------- RELATOS ---------- */
+
+#relatos {
+			margin:0em;
+			left:50;
+			width:75%;
+		}
+		
+#relatos h1{
+			font-size:30px;
+			color:#B70004;
+			text-decoration:underline;
+			font-style:oblique;
+			}
+
+
+#menu2 {
+		font-family:"Times New Roman", Times, serif;
+		width:50%;
+		border-collapse:separate;
+		
+		}
+
+#menu2 h1{
+		font-size:15px;
+		font-style:italic;
+		color:#B70004;
+		}
+		
+#menu2 h2{
+		font-size:15px;
+		font-style:italic;
+		color:#000000;
+		}
+
+#menu2 h2 a{
+			color:#B70004;
+			text-decoration:none;
+			}
+#menu2 h2 a:visited{
+			color:#ffffff;
+			font-family:"Times New Roman", Times, serif;
+			text-decoration:none;
+			}
+#menu2 h2 a:hover{
+			color:#FF0000;
+			font-family:"Times New Roman", Times, serif;
+			text-decoration:underline;
+			}
